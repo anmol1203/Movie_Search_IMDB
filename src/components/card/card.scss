@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  &__title {
+    font-size: 1rem;
+    margin: 10px 0 5px;
+  }
+
+  &__year {
+    font-size: 0.9rem;
+    color: #555;
+  }
+}
