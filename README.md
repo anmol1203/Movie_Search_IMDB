@@ -1,6 +1,6 @@
 ﻿# Movie_Search_IMDB
 
-![Movie Search App Screenshot](./assets/Screenshot%20(120).png)
+![Screenshot (120)](https://github.com/user-attachments/assets/b2d2e125-8901-4424-b06c-7439331fc603)
 
 A React-based application that allows users to search for movies, view details, and navigate results with pagination. It integrates with a movie API for real-time data fetching.
 
